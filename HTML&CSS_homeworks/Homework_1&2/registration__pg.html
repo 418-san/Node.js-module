@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>регистрация</title>
+</head>
+<body>
+    <nav>
+        <ul class="menu" type="none">
+            <li class="menu__item"><a href="logon_pg.html"><img src="./pic/0.svg" alt="" height="40"
+                        width="40"><span>Авторизация</span></a></li>
+            <li class="menu__item"><a href="registration__pg.html"><img src="./pic/0.svg" alt="" height="40"
+                        width="40"><span>Регистрация</span></a></li>
+            <li class="menu__item"><a href="muzyikalnyie-simvolyi.html"><img src="./pic/0.svg" alt="" height="40"
+                        width="40"><span>Музыкальные символы</span></a></li>
+            <li class="menu__item"><a href="dlitelnosti-not.html"><img src="./pic/0.svg" alt="" height="40"
+                        width="40"><span>Длительности нот</span></a></li>
+            <li class="menu__item"><a href="kluchi.html"><img src="./pic/0.svg" alt="" height="40"
+                        width="40"><span>Нотные ключи</span></a></li>
+        </ul>
+    </nav>
+    <form action="#" method="POST" autocomplete="on" enctype="multipart/form-data">
+        <fieldset>
+            <legend>Регистрация</legend>
+            <p>
+                <label>Логин
+                <input type="text" placeholder="введите логин" required maxlength="35" minlength="5"></label>
+            </p>
+            <p>
+                <label>e-mail:
+                <input type="email" placeholder="введите email" required maxlength="35" minlength="12"></label>
+            </p>
+            <p>
+                <label for="password">Придумайте пароль:
+                <input type="password" placeholder="Введите пароль" name="password" required maxlength="35" minlength="5"></label>
+            </p>
+            <p>
+                <label for="password_confirm">Повторите пароль:
+                <input type="password" placeholder="Введите пароль" name="password_confirm" required maxlength="35" minlength="5"></label>
+            </p>
+            <p>
+                <label>Загрузите фото
+                <input type="file" accept="image/*" value="Загрузить"></label>
+            </p>
+            <button type="submit">Зарегистрироваться</button>
+        </fieldset>
+    </form>     
+</body>
+</html>
